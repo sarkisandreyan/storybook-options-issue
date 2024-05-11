@@ -24,10 +24,20 @@ export const Primary: Story = {
     primary: true,
     label: 'Button',
   },
+  parameters: {
+    options: {
+      showToolbar: false,
+    }
+  },
 };
 
 export const Secondary: Story = {
   args: {
     label: 'Button',
+  },
+  parameters: {
+    options: {
+      showToolbar: true,
+    }
   },
 };
